@@ -23,7 +23,7 @@ export class GhlCredentials implements IGhlCredentials {
         description: 'If an agency-level credentials set, the ID of the agency.'
     })
     @Prop()
-    companyId?: string;
+    companyId?: string; /* Agency ID */
 
     @ApiProperty({
         description:
